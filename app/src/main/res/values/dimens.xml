@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="width_edit">150dp</dimen>
+    <dimen name="text_padding">10dp</dimen>
+</resources>
