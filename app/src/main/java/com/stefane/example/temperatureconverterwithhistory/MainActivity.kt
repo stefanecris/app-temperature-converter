@@ -64,8 +64,10 @@ class MainActivity : AppCompatActivity() {
 
                         withContext(Dispatchers.Main) {
 
-                            binding.fahrenheitEdit.setText(degreeFahrenheit)
-                            binding.kelvinEdit.setText(degreeKelvin)
+                            binding.apply {
+                                fahrenheitEdit.setText(degreeFahrenheit)
+                                kelvinEdit.setText(degreeKelvin)
+                            }
 
                         }
 
