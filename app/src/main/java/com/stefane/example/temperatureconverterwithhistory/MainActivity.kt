@@ -164,8 +164,10 @@ class MainActivity : AppCompatActivity() {
 
                         withContext(Dispatchers.Main) {
 
-                            binding.celsiusEdit.setText(degreeCelsius)
-                            binding.fahrenheitEdit.setText(degreeFahrenheit)
+                            binding.apply {
+                                celsiusEdit.setText(degreeCelsius)
+                                fahrenheitEdit.setText(degreeFahrenheit)
+                            }
 
                         }
 
