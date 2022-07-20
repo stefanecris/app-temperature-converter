@@ -114,8 +114,10 @@ class MainActivity : AppCompatActivity() {
 
                         withContext(Dispatchers.Main) {
 
-                            binding.celsiusEdit.setText(degreeCelsius)
-                            binding.kelvinEdit.setText(degreeKelvin)
+                            binding.apply {
+                                celsiusEdit.setText(degreeCelsius)
+                                kelvinEdit.setText(degreeKelvin)
+                            }
 
                         }
 
